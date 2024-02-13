@@ -13,3 +13,62 @@
  *= require_tree .
  *= require_self
  */
+ h1{
+  text-align: center;
+  font-size: 52px;
+  padding: 20px;
+  font-weight: 300;
+  color: blue;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #c9d4b5;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #524949;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F4;
+  color: #333;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.question, .answers {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.question p, .answers p {
+  margin: 0;
+}
+.question h2, .answers h2 {
+  margin-top: 10px;
+  color: #897c96;
+  font-size: 16px;
+}
+.question, .answers {
+  border-color: rgb(25, 24, 24);
+}
+a{
+  text-decoration: none;
+  color: rgb(160, 29, 112);
+}

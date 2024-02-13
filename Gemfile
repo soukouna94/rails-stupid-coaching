@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+gem "psych", "~> 4.0"
 
 ruby "3.1.2"
 

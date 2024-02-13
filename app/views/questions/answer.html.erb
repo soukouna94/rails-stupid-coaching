@@ -1,0 +1,30 @@
+<%# <h1 class="title">Stupid Coaching</h1>
+
+<div class="form-group">
+<h2 class="question">Question: <%=@question%> </h2>
+<%# </div>
+
+<div class="form-group">
+<h2 class="answer">Answer: <%=@answer %> </h2>
+<%# </div>
+< class="button"><%= link_to "Ask your coach anything:", ask_path %>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <h1>Stupid Coaching </h1>
+</head>
+<body>
+<div class="container">
+  <div class="question">
+    <p><%= @question %></p>
+    <h2>Your question..</h2>
+  </div>
+  <div class="answers">
+    <p><%= @answer %></p>
+    <h2></h2>
+  </div>
+  <%= link_to "Ask a new question ", ask_path %>
+</div>
+</body>
+</html>

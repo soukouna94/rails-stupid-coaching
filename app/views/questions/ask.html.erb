@@ -1,0 +1,17 @@
+<%# <div class="form-group">
+    <label for="exampleInputEmail1">Stupid Coaching</label>
+<h1 class="title">ask your coach anything:</h1>
+<form action="/answer" data-turbo="false">
+  <input type="text" name="questions">
+  <input type="submit" value="Ask!" class="form">
+</form>
+</div> %>
+
+<h1><strong>Stupid Coaching</strong></h1>
+<form action="/answer" data-turbo="false">
+  <div class="form-group">
+    <label for="ask">Ask your coach anything:</label>
+    <input type="text" class="form-control" id="ask" name="questions" placeholder="Enter your question!">
+  </div>
+  <button type="submit" class="btn btn-primary">Ask!</button>
+</form>
